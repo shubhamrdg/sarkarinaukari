@@ -64,6 +64,72 @@
 			],
 			"isBackground": false,
 			"problemMatcher": []
+		},
+		{
+			"label": "git merge operation",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"status",
+				"--short",
+				"--branch"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "inspect git state",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"status",
+				"--short",
+				"--branch"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "inspect git details",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"git status --short --branch & git diff -- .vscode/tasks.json & git log -1 --oneline --decorate & git remote -v"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Inspect git state",
+			"type": "shell",
+			"command": "git status --short --branch && git branch -vv && git remote -v",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Commit synced project",
+			"type": "shell",
+			"command": "C:\\Windows\\System32\\cmd.exe",
+			"args": [
+				"/d",
+				"/c",
+				"git add README.md .vscode/tasks.json & git commit -m \"Sync project to dev branch\" -m \"Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\""
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Commit synced project changes",
+			"type": "shell",
+			"command": "C:\\Windows\\System32\\cmd.exe",
+			"args": [
+				"/d",
+				"/c",
+				"git add README.md .vscode/tasks.json & git commit -F .git-sync-message.txt"
+			],
+			"isBackground": false,
+			"problemMatcher": []
 		}
 	]
 }
