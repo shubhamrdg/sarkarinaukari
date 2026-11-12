@@ -7,15 +7,15 @@ export default function Footer() {
           <p className="mt-1 max-w-sm text-xs leading-5 text-slate-500">Government jobs, results, and official links.</p>
         </div>
         <div className="flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-500">
-          <a href="/category/job" className="hover:text-blue-700">Jobs</a>
-          <a href="/category/result" className="hover:text-blue-700">Results</a>
-          <a href="/category/admit-card" className="hover:text-blue-700">Admit Cards</a>
-          <a href="/category/answer-key" className="hover:text-blue-700">Answer Keys</a>
-          <a href="/category/syllabus" className="hover:text-blue-700">Syllabus</a>
-          <a href="/about" className="hover:text-blue-700">About</a>
-          <a href="/contact" className="hover:text-blue-700">Contact</a>
-          <a href="/privacy-policy" className="hover:text-blue-700">Privacy</a>
-          <a href="/disclaimer" className="hover:text-blue-700">Disclaimer</a>
+          <a href="/category/job" className="flex min-h-11 items-center hover:text-blue-700">Jobs</a>
+          <a href="/category/result" className="flex min-h-11 items-center hover:text-blue-700">Results</a>
+          <a href="/category/admit-card" className="flex min-h-11 items-center hover:text-blue-700">Admit Cards</a>
+          <a href="/category/answer-key" className="flex min-h-11 items-center hover:text-blue-700">Answer Keys</a>
+          <a href="/category/syllabus" className="flex min-h-11 items-center hover:text-blue-700">Syllabus</a>
+          <a href="/about" className="flex min-h-11 items-center hover:text-blue-700">About</a>
+          <a href="/contact" className="flex min-h-11 items-center hover:text-blue-700">Contact</a>
+          <a href="/privacy-policy" className="flex min-h-11 items-center hover:text-blue-700">Privacy</a>
+          <a href="/disclaimer" className="flex min-h-11 items-center hover:text-blue-700">Disclaimer</a>
         </div>
         <p className="text-xs text-slate-400">© 2026 SarkariNaukri</p>
       </div>

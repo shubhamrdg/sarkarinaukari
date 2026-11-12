@@ -34,7 +34,7 @@ export default function Header() {
       <nav className={`${menuOpen ? "block" : "hidden"} border-t border-slate-100 md:block`} aria-label="Main navigation">
         <div className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-4 py-2 sm:px-6 lg:px-8">
           {categories.map(([label, slug]) => (
-            <a key={slug || "home"} href={slug ? `/category/${slug}` : "/"} className="shrink-0 rounded-lg px-3 py-2 text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--surface-muted)] hover:text-[var(--link-hover)]">
+            <a key={slug || "home"} href={slug ? `/category/${slug}` : "/"} className="flex min-h-11 shrink-0 items-center rounded-lg px-3 py-2 text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--surface-muted)] hover:text-[var(--link-hover)]">
               {label}
             </a>
           ))}
